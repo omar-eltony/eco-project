@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Talks - Debt Restructuring Strategies</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      width: calc(100% - 240px);
+      box-sizing: border-box;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .content-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .content-box h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content-box p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    ul {
+      font-size: 18px;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Eco Talks</h2>
+    <a href="home page.html">🏠 Home</a>
+    <a href="videos.html">🎥 Videos</a>
+    <a href="learn.html">📘 Learn</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="contact.html">📩 Contact Us</a>
+  </div>
+
+  <div class="main">
+    <div class="hero">
+      <h1>Debt Restructuring Strategies</h1>
+      <p>Exploring the methods countries use to restructure sovereign debt and manage financial crises.</p>
+    </div>
+
+    <div class="content-box">
+      <h2>What is Debt Restructuring?</h2>
+      <p>
+        Debt restructuring refers to the process through which a country, company, or individual renegotiates the terms of its debt to reduce the burden of repayment. This typically happens when a borrower faces financial difficulties and is unable to meet its obligations on time.
+      </p>
+
+      <h2>Why Do Countries Restructure Debt?</h2>
+      <p>
+        Sovereign debt restructuring occurs when a country is unable to repay or refinance its national debt, leading to negotiations with creditors. Some common reasons for debt restructuring include:
+        <ul>
+          <li><strong>High Debt Levels:</strong> When a country borrows excessively and cannot repay the principal or interest without further borrowing.</li>
+          <li><strong>Economic Crisis:</strong> During a financial crisis, such as a recession or inflationary pressures, governments may find it difficult to generate enough revenue to meet debt payments.</li>
+          <li><strong>Declining Revenue:</strong> A decrease in government revenues due to lower tax receipts, often because of a slowdown in economic activity.</li>
+          <li><strong>Currency Depreciation:</strong> If the national currency loses value, foreign-denominated debt becomes more expensive to service, exacerbating the financial strain on a government.</li>
+        </ul>
+      </p>
+
+      <h2>Key Debt Restructuring Techniques</h2>
+      <p>
+        Countries typically use one or more of the following strategies to restructure their debt:
+        <ul>
+          <li><strong>Debt Forgiveness:</strong> Creditors agree to cancel a portion of the debt, effectively reducing the total amount owed. This is often done when a country's debt is deemed unsustainable.</li>
+          <li><strong>Debt Rollovers:</strong> Extending the repayment period of the debt. By doing this, the country delays the repayment of the principal amount for several years.</li>
+          <li><strong>Interest Rate Reduction:</strong> Creditors may lower the interest rate on the outstanding debt, making it more manageable for the debtor to repay over time.</li>
+          <li><strong>Debt Swaps:</strong> Countries can swap their debt for longer-term bonds, or even equity in state-owned companies or resources. This provides relief while ensuring creditors remain involved.</li>
+          <li><strong>Debt Rescheduling:</strong> Changing the terms of the debt, such as payment schedules or amounts, to make repayment more feasible. This typically includes deferring payments or altering payment structures.</li>
+        </ul>
+      </p>
+
+      <h2>Examples of Debt Restructuring</h2>
+      <p>
+        Over the years, many countries have gone through debt restructuring processes:
+        <ul>
+          <li><strong>Argentina (2001):</strong> Argentina experienced a severe financial crisis in the early 2000s. After defaulting on its debt, the country restructured its sovereign debt, reducing the amount owed by creditors by around 75%.</li>
+          <li><strong>Greece (2012):</strong> During the Eurozone crisis, Greece restructured its debt through a "Private Sector Involvement" program, which involved significant losses for private creditors.</li>
+          <li><strong>Zambia (2020):</strong> Zambia became the first African country to default on its debt during the COVID-19 pandemic. It has since sought to restructure its debt through negotiations with international creditors.</li>
+        </ul>
+      </p>
+
+      <h2>Challenges of Debt Restructuring</h2>
+      <p>
+        While debt restructuring offers relief, it comes with its own set of challenges:
+        <ul>
+          <li><strong>Creditor Resistance:</strong> Creditors may be unwilling to accept significant reductions in the value of their loans, leading to prolonged negotiations and delays.</li>
+          <li><strong>Loss of Investor Confidence:</strong> Debt restructuring can lead to a decline in investor confidence, making it harder for the country to access future credit markets.</li>
+          <li><strong>Social Impact:</strong> Countries restructuring their debt may face austerity measures, which could lead to public protests and social unrest.</li>
+          <li><strong>Political Uncertainty:</strong> The restructuring process can be politically sensitive, with leaders facing criticism for their handling of national finances.</li>
+        </ul>
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Debt restructuring remains a crucial tool for countries facing insurmountable debt. By renegotiating terms, countries can manage financial crises more effectively and regain economic stability. However, it is essential for countries to balance debt reduction with the potential long-term impacts on their economies and citizens. Sustainable restructuring strategies can help pave the way for future growth and stability.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>

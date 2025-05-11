@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Talks - Effects on Purchasing Power</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      width: calc(100% - 240px);
+      box-sizing: border-box;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .content-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .content-box h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content-box p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Eco Talks</h2>
+    <a href="home page.html">🏠 Home</a>
+    <a href="videos.html">🎥 Videos</a>
+    <a href="learn.html">📘 Learn</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="contact.html">📩 Contact Us</a>
+  </div>
+
+  <div class="main">
+    <div class="hero">
+      <h1>Effects on Purchasing Power</h1>
+      <p>Understanding how inflation and other economic factors reduce your ability to buy goods and services.</p>
+    </div>
+
+    <div class="content-box">
+      <h2>What is Purchasing Power?</h2>
+      <p>
+        Purchasing power is the ability of a consumer to buy goods and services with a given amount of money. It reflects how much you can afford to buy, with the same amount of money, at any given point in time. This measure of value helps assess the standard of living and economic health of an individual or nation. In simple terms, if the price of goods and services rises, purchasing power falls.
+      </p>
+      <h2>Factors Affecting Purchasing Power</h2>
+      <p>
+        Several factors influence purchasing power. The most significant ones include:
+      </p>
+      <ul>
+        <li><strong>Inflation:</strong> The sustained increase in the price level of goods and services over time. Inflation reduces the purchasing power of money, as more money is required to buy the same amount of goods or services.</li>
+        <li><strong>Wages and Salaries:</strong> The higher your income, the more you can buy, which improves your purchasing power. If wages do not keep up with inflation, purchasing power declines.</li>
+        <li><strong>Interest Rates:</strong> The level of interest rates influences the cost of borrowing. Higher interest rates make borrowing more expensive, reducing disposable income and thus reducing purchasing power.</li>
+        <li><strong>Exchange Rates:</strong> A weak domestic currency can lead to higher prices for imported goods and services, which decreases purchasing power, especially for those dependent on imports.</li>
+      </ul>
+      <h2>How Inflation Impacts Purchasing Power</h2>
+      <p>
+        Inflation has a direct and significant impact on purchasing power. When inflation occurs, the prices of everyday goods, like food, transportation, and energy, rise. As a result, the same amount of money that once purchased a certain quantity of goods or services can now purchase less. For instance, if inflation is at 3% annually, a $100 item in one year will cost $103 the next year.
+      </p>
+      <p>
+        Consider the example of a household grocery bill. If the price of basic items like bread, milk, and eggs rises due to inflation, families will have to spend more money to buy the same quantity of goods. Even if their wages remain constant, they will find their purchasing power diminished.
+      </p>
+      <h2>The Role of Central Banks and Governments</h2>
+      <p>
+        Central banks, such as the Federal Reserve in the U.S. or the European Central Bank, play a crucial role in managing inflation. They do this by adjusting interest rates and regulating the money supply. When inflation is high, central banks may raise interest rates to reduce consumer spending and borrowing, thus curbing inflation.
+      </p>
+      <p>
+        Governments also use fiscal policies, such as taxation and government spending, to control inflation. For instance, reducing public spending or increasing taxes can reduce the money circulating in the economy, which in turn can help reduce inflationary pressures.
+      </p>
+      <h2>Deflation and Its Impact on Purchasing Power</h2>
+      <p>
+        While inflation reduces purchasing power, deflation (the opposite of inflation) can increase purchasing power in the short term. Deflation occurs when the prices of goods and services fall. In theory, this means consumers can buy more with the same amount of money. However, prolonged deflation can have harmful economic effects, such as:
+      </p>
+      <ul>
+        <li><strong>Decreased wages:</strong> As businesses face falling prices, they may cut wages to maintain profitability.</li>
+        <li><strong>Higher unemployment:</strong> Deflation can lead to reduced demand for goods and services, causing businesses to reduce production and lay off workers.</li>
+        <li><strong>Delayed purchases:</strong> Consumers may hold off on spending in anticipation of even lower prices, which further reduces economic activity.</li>
+      </ul>
+      <h2>Real-World Example: The Great Depression</h2>
+      <p>
+        A well-known example of deflation's harmful effects is the Great Depression of the 1930s. During this period, the United States experienced widespread deflation, which exacerbated the economic downturn. As prices fell, businesses cut wages and laid off workers, leading to widespread unemployment and a prolonged period of economic hardship. The effects of the Great Depression were felt globally, and it took years for economies to recover.
+      </p>
+      <h2>How to Protect Purchasing Power</h2>
+      <p>
+        Protecting purchasing power is essential, especially during periods of inflation. Here are a few ways individuals can protect themselves:
+      </p>
+      <ul>
+        <li><strong>Invest in assets:</strong> Stocks, real estate, and other investments tend to grow in value over time, often outpacing inflation.</li>
+        <li><strong>Minimize debt:</strong> High-interest debt can eat into your purchasing power, so it's essential to manage debt carefully.</li>
+        <li><strong>Focus on essential spending:</strong> During times of inflation, focus on purchasing necessities and consider cutting back on non-essential items.</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
+    

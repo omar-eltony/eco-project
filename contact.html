@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us – Eco Talks</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      flex: 1;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .contact-box {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .contact-box h2 {
+      color: #00796b;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    .contact-box form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .contact-box label {
+      font-size: 16px;
+      color: #333;
+    }
+
+    .contact-box input,
+    .contact-box textarea {
+      font-size: 16px;
+      padding: 12px 14px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 100%;
+      box-sizing: border-box;
+      resize: vertical;
+    }
+
+    .contact-box textarea {
+      height: 140px;
+    }
+
+    .contact-box button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      padding: 14px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: fit-content;
+      align-self: flex-start;
+    }
+
+    .contact-box button:hover {
+      background-color: #004d40;
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #ffffff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      text-align: center;
+    }
+
+    .popup h3 {
+      margin: 0;
+      color: #00796b;
+      font-size: 22px;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+        padding: 20px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+
+      .contact-box {
+        padding: 30px 20px;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Eco Talks</h2>
+  <a href="home page.html">🏠 Home</a>
+  <a href="videos.html">🎥 Videos</a>
+  <a href="learn.html">📘 Learn</a>
+  <a href="about.html">ℹ️ About</a>
+  <a href="contact.html">📩 Contact Us</a>
+</div>
+
+<div class="main">
+  <div class="hero">
+    <h1>Contact Us</h1>
+    <p>Got a question, idea, or just wanna say hey? We’d love to hear from you.</p>
+  </div>
+
+  <div class="contact-box">
+    <h2>Drop us a message</h2>
+    <form id="contact-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">📩 Send Message</button>
+    </form>
+  </div>
+</div>
+
+<div class="popup" id="popup">
+  <h3>✅ Thank you for your feedback!</h3>
+</div>
+
+<script>
+  const form = document.getElementById('contact-form');
+  const popup = document.getElementById('popup');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    popup.style.display = 'block';
+
+    setTimeout(() => {
+      popup.style.display = 'none';
+      form.reset();
+    }, 3000); // Hide popup after 3 seconds
+  });
+</script>
+
+</body>
+</html>

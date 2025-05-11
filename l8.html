@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Talks - Supply-Side vs. Demand-Side Measures</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      width: calc(100% - 240px);
+      box-sizing: border-box;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .content-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .content-box h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content-box p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    ul {
+      font-size: 18px;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Eco Talks</h2>
+    <a href="home page.html">🏠 Home</a>
+    <a href="videos.html">🎥 Videos</a>
+    <a href="learn.html">📘 Learn</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="contact.html">📩 Contact Us</a>
+  </div>
+
+  <div class="main">
+    <div class="hero">
+      <h1>Supply-Side vs. Demand-Side Measures</h1>
+      <p>Explore the difference between supply-side and demand-side measures and their impact on the economy.</p>
+    </div>
+
+    <div class="content-box">
+      <h2>What are Supply-Side Measures?</h2>
+      <p>
+        Supply-side measures refer to policies and strategies aimed at increasing the overall supply of goods and services within an economy. These measures typically focus on improving the productivity and efficiency of producers, encouraging investment, and stimulating economic growth. The idea is that by making it easier and more profitable for businesses to produce goods and services, the economy will grow, leading to increased employment and a higher standard of living.
+      </p>
+
+      <h2>Key Features of Supply-Side Policies</h2>
+      <p>
+        Supply-side policies focus on enhancing the production capacity of the economy, and they usually involve:
+        <ul>
+          <li><strong>Tax Cuts for Businesses:</strong> Lowering corporate taxes can provide businesses with more resources to reinvest in their operations, which can lead to job creation, technological advancements, and overall economic growth.</li>
+          <li><strong>Deregulation:</strong> Reducing government regulations can make it easier for businesses to operate, helping them reduce costs and increase productivity.</li>
+          <li><strong>Investment in Education & Training:</strong> Providing a more skilled workforce can increase productivity and efficiency, which in turn leads to greater economic growth.</li>
+          <li><strong>Promoting Innovation:</strong> Incentives for research and development (R&D) can encourage businesses to develop new technologies and products, which helps improve overall productivity.</li>
+        </ul>
+      </p>
+
+      <h2>What are Demand-Side Measures?</h2>
+      <p>
+        Demand-side measures focus on stimulating aggregate demand in the economy. These policies aim to increase consumer and business spending in order to boost economic activity. Demand-side measures are typically used during economic downturns when demand is weak and unemployment is high. The goal is to encourage spending, which in turn increases production, investment, and job creation.
+      </p>
+
+      <h2>Key Features of Demand-Side Policies</h2>
+      <p>
+        Demand-side policies focus on increasing overall demand for goods and services through various measures:
+        <ul>
+          <li><strong>Government Spending:</strong> Increasing government expenditure on infrastructure, healthcare, education, and social services can stimulate demand by creating jobs and encouraging consumer spending.</li>
+          <li><strong>Tax Cuts for Consumers:</strong> Reducing personal income taxes allows consumers to retain more of their income, which can boost consumption and demand for goods and services.</li>
+          <li><strong>Monetary Policy:</strong> Central banks can reduce interest rates, making borrowing cheaper, which encourages both consumers and businesses to borrow and spend more, stimulating economic growth.</li>
+          <li><strong>Welfare Programs:</strong> Increasing social security payments or unemployment benefits can increase consumer spending, especially in lower-income households, where the marginal propensity to consume is higher.</li>
+        </ul>
+      </p>
+
+      <h2>Differences Between Supply-Side and Demand-Side Measures</h2>
+      <p>
+        The main difference between supply-side and demand-side measures lies in their focus:
+        <ul>
+          <li><strong>Supply-Side:</strong> Focuses on increasing the productive capacity of the economy by improving the supply of goods and services through investment, innovation, and business expansion.</li>
+          <li><strong>Demand-Side:</strong> Focuses on boosting demand for goods and services, usually through increased government spending or lower taxes, which encourages consumption and investment.</li>
+        </ul>
+      </p>
+
+      <h2>Which is More Effective?</h2>
+      <p>
+        The effectiveness of supply-side versus demand-side policies depends on the state of the economy. During periods of economic growth, supply-side policies may be more effective in sustaining long-term growth. However, during economic recessions or periods of high unemployment, demand-side policies may be more suitable for stimulating short-term economic activity.
+      </p>
+
+      <h2>Examples of Real-World Applications</h2>
+      <p>
+        Several countries have implemented a combination of supply-side and demand-side measures to achieve their economic objectives. For example:
+        <ul>
+          <li><strong>United States:</strong> The U.S. has used a mix of supply-side policies such as tax cuts for businesses and individuals, alongside demand-side measures like stimulus packages and infrastructure spending, especially during economic downturns like the 2008 financial crisis and the COVID-19 pandemic.</li>
+          <li><strong>United Kingdom:</strong> The UK has implemented supply-side measures such as labor market reforms and demand-side measures like increased public spending during periods of low economic growth.</li>
+          <li><strong>Germany:</strong> Germany tends to emphasize supply-side measures, focusing on policies that enhance competitiveness and innovation, but has also used demand-side measures to counteract economic slowdowns, especially during the Eurozone debt crisis.</li>
+        </ul>
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Both supply-side and demand-side measures play crucial roles in economic policy, and the balance between the two depends on the current state of the economy. While supply-side policies are often focused on long-term growth and structural reforms, demand-side policies are more likely to provide immediate relief during economic recessions. Understanding when to apply each approach is key to achieving a stable and growing economy.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>

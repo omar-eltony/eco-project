@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Talks - Types of Inflation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      width: calc(100% - 240px);
+      box-sizing: border-box;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .content-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .content-box h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content-box p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Eco Talks</h2>
+    <a href="home page.html">🏠 Home</a>
+    <a href="videos.html">🎥 Videos</a>
+    <a href="learn.html">📘 Learn</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="contact.html">📩 Contact Us</a>
+  </div>
+
+  <div class="main">
+    <div class="hero">
+      <h1>Types of Inflation</h1>
+      <p>Explore the different types of inflation that affect economies and individuals alike.</p>
+    </div>
+
+    <div class="content-box">
+      <h2>What is Inflation?</h2>
+      <p>
+        Inflation is the rate at which the general level of prices for goods and services rises, leading to a decrease in the purchasing power of a currency. While a moderate level of inflation is often seen as a sign of a growing economy, too much inflation or deflation can cause economic instability. There are several types of inflation, each with distinct causes and effects.
+      </p>
+
+      <h2>1. Demand-Pull Inflation</h2>
+      <p>
+        Demand-pull inflation occurs when the demand for goods and services in an economy outstrips its productive capacity. In simpler terms, when consumers and businesses demand more goods than the economy can produce, prices begin to rise. This often happens in an economy that is growing rapidly and where the demand for goods exceeds supply. 
+      </p>
+      <p>
+        An example of demand-pull inflation can be seen during periods of high economic growth, where people’s incomes rise, leading to an increase in demand. If production cannot keep pace with this demand, prices will increase, leading to inflation. Governments and central banks typically respond by raising interest rates to curb excessive spending.
+      </p>
+
+      <h2>2. Cost-Push Inflation</h2>
+      <p>
+        Cost-push inflation occurs when the costs of production increase, leading to higher prices for goods and services. This type of inflation is often caused by increases in the cost of raw materials, wages, or energy. For example, when the price of oil rises, it becomes more expensive to produce and transport goods, which in turn increases the price of consumer goods.
+      </p>
+      <p>
+        Cost-push inflation can be difficult to control because it originates from the supply side of the economy. It often leads to a situation known as stagflation, where inflation and unemployment rise simultaneously. An example of cost-push inflation is the oil price shock of the 1970s, which caused a rise in inflation globally.
+      </p>
+
+      <h2>3. Built-In Inflation</h2>
+      <p>
+        Built-in inflation, also known as wage-price inflation, occurs when businesses increase prices to compensate for increased labor costs, and workers demand higher wages to keep up with rising prices. This can create a feedback loop where wages and prices continuously rise.
+      </p>
+      <p>
+        For example, if workers demand higher wages to keep up with rising prices, companies may raise the prices of their goods and services to cover the increased labor costs. In response, workers again demand higher wages, and the cycle repeats. This type of inflation is often seen in economies with long-standing inflationary expectations and can be difficult to break.
+      </p>
+
+      <h2>4. Hyperinflation</h2>
+      <p>
+        Hyperinflation is an extremely high and typically accelerating inflation rate, often exceeding 50% per month. This type of inflation occurs when a country's monetary system collapses, usually as a result of excessive money printing or a loss of confidence in the currency. Hyperinflation leads to the rapid erosion of the real value of the local currency, as the prices of everyday goods soar uncontrollably.
+      </p>
+      <p>
+        One of the most infamous examples of hyperinflation occurred in Zimbabwe in the late 2000s, where inflation reached an astronomical rate of 89.7 *10^22* percent per month. This caused the value of the Zimbabwean dollar to collapse, and the government was forced to abandon the currency entirely.
+      </p>
+
+      <h2>5. Structural Inflation</h2>
+      <p>
+        Structural inflation is caused by long-term changes in an economy that affect its structure. This can occur due to shifts in demographics, technological changes, or government policies that alter the production of goods and services. As economies grow and develop, the cost of producing certain goods may rise due to new regulations, technological changes, or shifts in the labor market.
+      </p>
+      <p>
+        For example, as a country’s population ages, there may be higher demand for healthcare services, which drives up the cost of healthcare, contributing to inflation. Similarly, new environmental regulations can make the production of certain goods more expensive, causing the prices of those goods to rise.
+      </p>
+
+      <h2>Inflation Expectations</h2>
+      <p>
+        Inflation expectations refer to the way people anticipate future inflation and adjust their behavior accordingly. If people expect prices to rise, they may demand higher wages or increase their prices, which in turn causes inflation to become self-fulfilling. Central banks, like the Federal Reserve, closely monitor inflation expectations, as they play a critical role in determining the overall inflationary environment.
+      </p>
+
+      <h2>How to Manage Inflation</h2>
+      <p>
+        While some inflation is inevitable in a growing economy, there are several strategies for managing inflation:
+      </p>
+      <ul>
+        <li><strong>Monetary Policy:</strong> Central banks use tools like interest rates to control inflation. Raising interest rates can reduce demand and slow inflation.</li>
+        <li><strong>Fiscal Policy:</strong> Governments can use fiscal policy (taxation and public spending) to manage inflation by controlling the amount of money circulating in the economy.</li>
+        <li><strong>Supply-Side Policies:</strong> Encouraging productivity and technological advancements can help mitigate inflation caused by cost-push factors.</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

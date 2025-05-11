@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Talks - Sovereign Debt & Default Risks</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      width: calc(100% - 240px);
+      box-sizing: border-box;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .content-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .content-box h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content-box p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    ul {
+      font-size: 18px;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Eco Talks</h2>
+    <a href="home page.html">🏠 Home</a>
+    <a href="videos.html">🎥 Videos</a>
+    <a href="learn.html">📘 Learn</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="contact.html">📩 Contact Us</a>
+  </div>
+
+  <div class="main">
+    <div class="hero">
+      <h1>Sovereign Debt & Default Risks</h1>
+      <p>Exploring sovereign debt, its implications, and the risks associated with defaults in global finance.</p>
+    </div>
+
+    <div class="content-box">
+      <h2>What is Sovereign Debt?</h2>
+      <p>
+        Sovereign debt refers to the money that a government borrows in order to finance its budget deficit or other financial needs. Governments issue debt in the form of bonds or loans, typically from domestic or international lenders. These debts are repaid over time, with interest, and they are essential tools for financing government projects and obligations.
+      </p>
+
+      <h2>Types of Sovereign Debt</h2>
+      <p>
+        Sovereign debt can take various forms, including:
+        <ul>
+          <li><strong>Domestic Debt:</strong> Debt issued in the country’s own currency, usually held by domestic investors.</li>
+          <li><strong>External Debt:</strong> Debt issued in foreign currencies, typically owed to foreign creditors.</li>
+          <li><strong>Short-term Debt:</strong> Debt with a maturity period of less than one year.</li>
+          <li><strong>Long-term Debt:</strong> Debt with a maturity period longer than one year, often used for major infrastructure projects.</li>
+        </ul>
+      </p>
+
+      <h2>Why Do Governments Borrow?</h2>
+      <p>
+        Governments borrow money for various reasons, including:
+        <ul>
+          <li><strong>Economic Stimulus:</strong> Borrowing can stimulate the economy, especially during recessions or times of economic slowdown.</li>
+          <li><strong>Infrastructure Development:</strong> Borrowing allows governments to fund large projects, such as transportation, healthcare, and education systems.</li>
+          <li><strong>Emergency Relief:</strong> Borrowing helps governments address natural disasters, military expenditures, or unforeseen financial needs.</li>
+        </ul>
+      </p>
+
+      <h2>Risks of Sovereign Debt</h2>
+      <p>
+        While borrowing can benefit a country, there are inherent risks involved:
+        <ul>
+          <li><strong>Default Risk:</strong> If a government is unable to meet its debt obligations, it may default, causing economic instability both within the country and internationally.</li>
+          <li><strong>Inflation Risk:</strong> Borrowing in foreign currencies or excessive borrowing can lead to inflationary pressures, destabilizing the economy.</li>
+          <li><strong>Interest Rate Risk:</strong> Increases in interest rates can raise the cost of borrowing, making it more difficult for governments to service their debt.</li>
+          <li><strong>Currency Depreciation Risk:</strong> Countries borrowing in foreign currencies face the risk of currency depreciation, which can make repaying foreign debt more expensive.</li>
+        </ul>
+      </p>
+
+      <h2>What Happens When a Country Defaults?</h2>
+      <p>
+        Default occurs when a government is unable to meet its debt obligations. This can happen in various ways, such as:
+        <ul>
+          <li><strong>Debt Restructuring:</strong> The government may renegotiate its debt terms, such as extending the repayment period or reducing the amount owed.</li>
+          <li><strong>Debt Forgiveness:</strong> In some cases, creditors may agree to cancel part of the debt, often in exchange for other economic reforms or guarantees.</li>
+          <li><strong>Bankruptcy:</strong> In extreme cases, the country may declare bankruptcy, leading to significant economic turmoil.</li>
+        </ul>
+      </p>
+
+      <h2>Historical Examples of Sovereign Debt Defaults</h2>
+      <p>
+        Several high-profile sovereign defaults have occurred throughout history:
+        <ul>
+          <li><strong>Argentina (2001):</strong> Argentina defaulted on approximately $100 billion in sovereign debt, leading to a major economic crisis and devaluation of the Argentine peso.</li>
+          <li><strong>Greece (2012):</strong> Greece underwent a debt restructuring process after being unable to repay its debt, causing massive losses to bondholders and triggering a bailout from the European Union and the IMF.</li>
+          <li><strong>Russia (1998):</strong> Russia defaulted on its domestic debt, leading to a sharp devaluation of the ruble and a financial crisis that affected emerging markets worldwide.</li>
+        </ul>
+      </p>
+
+      <h2>Managing Sovereign Debt Risks</h2>
+      <p>
+        To avoid defaults and manage the risks associated with sovereign debt, countries can take several measures:
+        <ul>
+          <li><strong>Diversification:</strong> By issuing debt in different currencies and to various types of creditors, countries can reduce their reliance on any single source of debt.</li>
+          <li><strong>Prudent Borrowing:</strong> Governments should borrow only what they can realistically repay and should manage debt levels carefully to avoid over-leveraging.</li>
+          <li><strong>Economic Growth:</strong> A strong and growing economy helps generate revenue, making it easier to meet debt obligations.</li>
+        </ul>
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Sovereign debt plays a crucial role in financing governments’ activities, but it comes with significant risks. If not managed properly, countries can face default, which can have severe consequences for their economies and the global financial system. It is vital for governments to borrow responsibly, manage their debt levels prudently, and ensure economic stability to reduce the risks associated with sovereign debt.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>

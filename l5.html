@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Talks - Inflation’s Impact on Investments and the Economy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      width: calc(100% - 240px);
+      box-sizing: border-box;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .content-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .content-box h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content-box p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    ul {
+      font-size: 18px;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Eco Talks</h2>
+    <a href="home page.html">🏠 Home</a>
+    <a href="videos.html">🎥 Videos</a>
+    <a href="learn.html">📘 Learn</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="contact.html">📩 Contact Us</a>
+  </div>
+
+  <div class="main">
+    <div class="hero">
+      <h1>Inflation’s Impact on Investments and the Economy</h1>
+      <p>Explore how inflation affects investments and broader economic performance.</p>
+    </div>
+
+    <div class="content-box">
+      <h2>Understanding the Effects of Inflation on Investments</h2>
+      <p>
+        Inflation can have significant effects on investments. When the general price level rises, the purchasing power of money decreases, meaning that an investor’s real returns may be eroded. This occurs because the future value of money is worth less than its present value.
+      </p>
+
+      <h2>The Impact of Inflation on Various Asset Classes</h2>
+      <p>
+        Inflation affects different types of investments in various ways. Here's how it impacts some common asset classes:
+      </p>
+      <ul>
+        <li><strong>Stocks:</strong> Stock prices may rise with inflation if companies are able to pass on increased costs to consumers. However, if inflation is too high, it can hurt corporate profits and reduce stock prices. Additionally, inflation can increase interest rates, which could make bonds more attractive relative to stocks.</li>
+        <li><strong>Bonds:</strong> Inflation erodes the value of bond payments because the future interest payments are fixed. As inflation increases, bond yields typically rise to compensate investors for the decreased purchasing power of future coupon payments.</li>
+        <li><strong>Real Estate:</strong> Real estate is often considered a good hedge against inflation. Property values tend to rise with inflation, especially in areas with high demand. Additionally, rental income may increase with inflation, making real estate a potentially valuable inflation-protected investment.</li>
+        <li><strong>Commodities:</strong> Commodities like gold, oil, and agricultural products typically benefit from inflation, as their prices tend to rise with inflation. Gold, in particular, is often seen as a safe haven during periods of high inflation.</li>
+        <li><strong>Cash and Savings Accounts:</strong> Cash holdings lose value during inflation as the purchasing power of money decreases. Savings accounts with fixed interest rates can become less attractive when inflation outpaces the interest earned.</li>
+      </ul>
+
+      <h2>How Inflation Affects the Economy</h2>
+      <p>
+        Inflation doesn’t just impact individual investments; it also has far-reaching consequences on the broader economy. Here’s how inflation influences the economy as a whole:
+      </p>
+      <ul>
+        <li><strong>Reduced Consumer Spending:</strong> As prices rise, consumers’ purchasing power declines, leading to reduced spending. This can slow down economic growth, as consumption is a major driver of economic activity.</li>
+        <li><strong>Higher Interest Rates:</strong> Central banks may increase interest rates to combat inflation, which can raise borrowing costs for consumers and businesses. Higher interest rates can lead to reduced investment and borrowing, further slowing down economic growth.</li>
+        <li><strong>Increased Costs for Businesses:</strong> Businesses may face higher input costs, including wages and raw materials. This can lead to higher prices for goods and services, further fueling inflation. In some cases, businesses may reduce production or lay off workers to offset higher costs.</li>
+        <li><strong>Wage-Price Spirals:</strong> In times of high inflation, workers may demand higher wages to keep up with rising prices. Businesses, in turn, may raise prices to cover the increased wage costs, leading to a feedback loop that accelerates inflation.</li>
+      </ul>
+
+      <h2>Inflation and Economic Policy</h2>
+      <p>
+        Governments and central banks must carefully manage inflation to avoid detrimental economic effects. Policy tools used to control inflation include:
+      </p>
+      <ul>
+        <li><strong>Monetary Policy:</strong> Central banks control inflation by adjusting interest rates and using other tools like quantitative easing or tightening. When inflation is high, central banks may raise interest rates to cool down the economy and reduce inflationary pressures.</li>
+        <li><strong>Fiscal Policy:</strong> Governments may adjust tax rates or government spending to influence the economy. Higher taxes or reduced government spending can lower demand and reduce inflation. Conversely, tax cuts and increased government spending can stimulate demand and possibly raise inflation.</li>
+      </ul>
+
+      <h2>Inflation’s Long-Term Impact on Investments and Economic Growth</h2>
+      <p>
+        Over the long term, high inflation can erode the value of savings and investments. If inflation remains high for extended periods, it may lead to diminished investor confidence and reduced capital formation. Businesses may also be hesitant to invest in expansion due to uncertain future costs and returns. This uncertainty can slow down economic growth and reduce productivity.
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Inflation is a double-edged sword for investors and the economy. While moderate inflation can signal a growing economy, high inflation can have detrimental effects on investments, business activity, and consumer behavior. Understanding how inflation impacts different asset classes and the economy at large is crucial for both policymakers and investors alike.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>

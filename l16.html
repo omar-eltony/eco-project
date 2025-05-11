@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Talks - Trade Agreements & Their Impact</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      width: calc(100% - 240px);
+      box-sizing: border-box;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .content-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .content-box h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content-box p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    ul {
+      font-size: 18px;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Eco Talks</h2>
+    <a href="home page.html">🏠 Home</a>
+    <a href="videos.html">🎥 Videos</a>
+    <a href="learn.html">📘 Learn</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="contact.html">📩 Contact Us</a>
+  </div>
+
+  <div class="main">
+    <div class="hero">
+      <h1>Trade Agreements & Their Impact</h1>
+      <p>Understanding the role and influence of trade agreements on the global economy.</p>
+    </div>
+
+    <div class="content-box">
+      <h2>What Are Trade Agreements?</h2>
+      <p>
+        A trade agreement is a contract between two or more countries that outlines the terms and conditions of trade between them. These agreements typically involve the reduction or elimination of tariffs, quotas, and other barriers to the free flow of goods and services. Trade agreements can be bilateral (between two countries), regional (involving multiple countries), or multilateral (involving a large number of countries).
+      </p>
+
+      <h2>Types of Trade Agreements</h2>
+      <p>
+        There are various types of trade agreements, each offering different levels of trade liberalization:
+        <ul>
+          <li><strong>Bilateral Agreements:</strong> These agreements involve two countries and are designed to facilitate trade between them by reducing or eliminating tariffs and other trade barriers.</li>
+          <li><strong>Regional Trade Agreements (RTAs):</strong> These agreements involve a group of countries in a specific region and often focus on reducing barriers to trade within that region (e.g., the European Union, the North American Free Trade Agreement).</li>
+          <li><strong>Multilateral Trade Agreements:</strong> These agreements involve multiple countries and are often negotiated through international organizations such as the World Trade Organization (WTO). Examples include the General Agreement on Tariffs and Trade (GATT).</li>
+        </ul>
+      </p>
+
+      <h2>The Benefits of Trade Agreements</h2>
+      <p>
+        Trade agreements have a number of benefits for the countries involved:
+        <ul>
+          <li><strong>Increased Trade:</strong> By removing trade barriers, countries can increase the volume of goods and services exchanged, leading to greater economic activity.</li>
+          <li><strong>Economic Growth:</strong> Free trade enables countries to specialize in the production of goods and services they are most efficient at, leading to overall economic growth.</li>
+          <li><strong>Job Creation:</strong> Trade agreements can lead to the creation of new jobs in export-oriented industries and stimulate demand for skilled labor.</li>
+          <li><strong>Consumer Benefits:</strong> Consumers benefit from lower prices and increased choice as trade agreements make it easier for foreign goods to enter domestic markets.</li>
+        </ul>
+      </p>
+
+      <h2>Challenges and Criticisms of Trade Agreements</h2>
+      <p>
+        While trade agreements can offer significant benefits, they also face criticisms and challenges:
+        <ul>
+          <li><strong>Loss of Domestic Industries:</strong> Some industries may struggle to compete with cheaper imports, leading to job losses in certain sectors.</li>
+          <li><strong>Inequality:</strong> Trade agreements can exacerbate income inequality, as the benefits of trade may not be evenly distributed among all segments of society.</li>
+          <li><strong>Environmental Concerns:</strong> Increased trade can lead to environmental degradation, particularly if regulations are not in place to protect natural resources.</li>
+          <li><strong>Cultural Impact:</strong> The free flow of goods and services can lead to cultural homogenization, as local traditions and products may be overshadowed by foreign influences.</li>
+        </ul>
+      </p>
+
+      <h2>Notable Trade Agreements in History</h2>
+      <p>
+        Some of the most significant trade agreements in modern history have shaped the global economy:
+        <ul>
+          <li><strong>North American Free Trade Agreement (NAFTA):</strong> This agreement between Canada, Mexico, and the United States was designed to eliminate trade barriers and increase economic cooperation in North America. It has since been replaced by the United States-Mexico-Canada Agreement (USMCA).</li>
+          <li><strong>European Union (EU):</strong> The EU represents one of the most ambitious regional trade agreements, creating a single market that allows for the free movement of goods, services, capital, and labor among member states.</li>
+          <li><strong>Trans-Pacific Partnership (TPP):</strong> A multilateral agreement between 12 countries across the Asia-Pacific region aimed at reducing tariffs and promoting economic cooperation.</li>
+          <li><strong>World Trade Organization (WTO):</strong> The WTO facilitates international trade by providing a framework for multilateral trade negotiations and dispute resolution.</li>
+        </ul>
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Trade agreements play a crucial role in the global economy by promoting economic growth, increasing trade, and creating jobs. However, the benefits of trade agreements must be balanced with efforts to address their challenges, such as job displacement, inequality, and environmental concerns. As countries continue to negotiate new agreements, it is important to consider both the economic and social implications of trade liberalization.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Talks - Types of Exchange Rate Systems</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      width: calc(100% - 240px);
+      box-sizing: border-box;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .content-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .content-box h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content-box p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    ul {
+      font-size: 18px;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Eco Talks</h2>
+    <a href="home page.html">🏠 Home</a>
+    <a href="videos.html">🎥 Videos</a>
+    <a href="learn.html">📘 Learn</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="contact.html">📩 Contact Us</a>
+  </div>
+
+  <div class="main">
+    <div class="hero">
+      <h1>Types of Exchange Rate Systems</h1>
+      <p>Understand the different systems that govern how currencies are exchanged globally.</p>
+    </div>
+
+    <div class="content-box">
+      <h2>What is an Exchange Rate System?</h2>
+      <p>
+        An exchange rate system refers to the way in which the value of one currency is determined in relation to another. The exchange rate determines how much one currency is worth in terms of another and plays a crucial role in international trade, investment, and tourism. Governments and central banks adopt different systems for managing exchange rates based on their economic goals and the level of flexibility they want to allow in the value of their currency.
+      </p>
+
+      <h2>Types of Exchange Rate Systems</h2>
+      <p>
+        There are three primary types of exchange rate systems used by countries around the world:
+        <ul>
+          <li><strong>Fixed Exchange Rate System:</strong> In a fixed exchange rate system, a country's currency value is tied or pegged to another major currency like the US dollar or gold. The central bank of the country maintains the exchange rate at a specific level by buying and selling its own currency in foreign exchange markets. This system provides stability and predictability in trade but requires a country to have sufficient foreign reserves to defend the fixed rate.</li>
+          <li><strong>Floating Exchange Rate System:</strong> A floating exchange rate system allows the currency's value to be determined by market forces such as supply and demand in foreign exchange markets. This system is more flexible, as the value of the currency can fluctuate freely based on economic conditions, interest rates, and inflation. While it allows for adjustment to economic conditions, it can lead to volatility and unpredictability in currency values.</li>
+          <li><strong>Managed Float or Dirty Float:</strong> This system is a hybrid of the fixed and floating systems. In a managed float, a currency primarily floats according to market forces, but the central bank may intervene occasionally to stabilize or influence the currency's value. Governments use this system to achieve a balance between flexibility and stability.</li>
+        </ul>
+      </p>
+
+      <h2>Factors Affecting Exchange Rate Systems</h2>
+      <p>
+        Several factors influence the choice of exchange rate system a country adopts:
+        <ul>
+          <li><strong>Economic Stability:</strong> Countries with more stable economies often prefer a floating exchange rate, as it reflects the market's confidence in the currency. Less stable economies may prefer a fixed rate to ensure stability in international transactions.</li>
+          <li><strong>Foreign Exchange Reserves:</strong> Countries with substantial foreign exchange reserves are more likely to adopt a fixed exchange rate, as they can defend the peg against market fluctuations. Countries with limited reserves may prefer a floating system to avoid depleting reserves.</li>
+          <li><strong>Trade Relationships:</strong> Countries that heavily depend on trade with a specific nation may opt to peg their currency to that country's currency to reduce exchange rate risks in international trade.</li>
+          <li><strong>Monetary Policy:</strong> Countries with independent monetary policies may prefer a floating system, as it allows the central bank to adjust interest rates and money supply based on domestic economic conditions.</li>
+        </ul>
+      </p>
+
+      <h2>Pros and Cons of Different Systems</h2>
+      <p>
+        Each exchange rate system has its advantages and disadvantages:
+        <ul>
+          <li><strong>Fixed Exchange Rate:</strong>
+            <ul>
+              <li><strong>Pros:</strong> Provides certainty for international trade and investment, reduces currency risk, and helps control inflation.</li>
+              <li><strong>Cons:</strong> Requires large reserves of foreign currency, limits the central bank's ability to adjust interest rates for domestic economic conditions, and makes the country vulnerable to external shocks.</li>
+            </ul>
+          </li>
+          <li><strong>Floating Exchange Rate:</strong>
+            <ul>
+              <li><strong>Pros:</strong> Offers flexibility to adjust to changing economic conditions, allows the central bank to set interest rates based on domestic needs, and automatically balances trade deficits or surpluses.</li>
+              <li><strong>Cons:</strong> Can lead to volatility, uncertainty in exchange rates, and may affect inflation and interest rates.</li>
+            </ul>
+          </li>
+          <li><strong>Managed Float:</strong>
+            <ul>
+              <li><strong>Pros:</strong> Provides flexibility to market forces while allowing the central bank to intervene and stabilize the currency when needed.</li>
+              <li><strong>Cons:</strong> It may still lead to some volatility, and the central bank's intervention may not always be successful in stabilizing the currency.</li>
+            </ul>
+          </li>
+        </ul>
+      </p>
+
+      <h2>Examples of Countries and Their Systems</h2>
+      <p>
+        - <strong>Fixed Exchange Rate:</strong> Hong Kong has a fixed exchange rate system, pegging the Hong Kong dollar to the US dollar.
+        - <strong>Floating Exchange Rate:</strong> The United States, the Eurozone, and Japan all operate on a floating exchange rate system where their currencies fluctuate based on market conditions.
+        - <strong>Managed Float:</strong> India and China have managed float systems, where the central bank intervenes when necessary to stabilize the currency.
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        The choice of exchange rate system has significant implications for a country's economy. While each system has its pros and cons, the appropriate choice depends on the nation's economic goals, stability, and trade relationships. Understanding these systems helps to comprehend how currencies are valued and how international trade and investment are conducted.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>

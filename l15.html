@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Talks - Exchange Rates & International Trade</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      width: calc(100% - 240px);
+      box-sizing: border-box;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .content-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .content-box h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content-box p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    ul {
+      font-size: 18px;
+      color: #555;
+      margin-top: 20px;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Eco Talks</h2>
+    <a href="home page.html">🏠 Home</a>
+    <a href="videos.html">🎥 Videos</a>
+    <a href="learn.html">📘 Learn</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="contact.html">📩 Contact Us</a>
+  </div>
+
+  <div class="main">
+    <div class="hero">
+      <h1>Exchange Rates & International Trade</h1>
+      <p>Understanding the influence of exchange rates on global trade and economic dynamics.</p>
+    </div>
+
+    <div class="content-box">
+      <h2>What Are Exchange Rates?</h2>
+      <p>
+        An exchange rate is the price of one country's currency in terms of another. It determines how much of one currency can be exchanged for another. Exchange rates can be influenced by a variety of factors including inflation, interest rates, and market speculation. They play a critical role in international trade, investment, and economic relationships between countries.
+      </p>
+
+      <h2>The Role of Exchange Rates in International Trade</h2>
+      <p>
+        Exchange rates directly impact the cost of imports and exports. A stronger domestic currency makes imports cheaper and exports more expensive for foreign buyers. Conversely, a weaker domestic currency can make exports cheaper and imports more expensive. This balance influences a country's trade balance, the flow of goods and services, and overall economic activity.
+      </p>
+
+      <h2>Types of Exchange Rate Systems</h2>
+      <p>
+        Countries can adopt different exchange rate systems, each with its own implications for international trade:
+        <ul>
+          <li><strong>Fixed Exchange Rate:</strong> The value of a country's currency is tied to another major currency (e.g., the US Dollar or Gold). This system reduces exchange rate volatility but limits a country's ability to adjust its monetary policy.</li>
+          <li><strong>Floating Exchange Rate:</strong> The value of the currency is determined by market forces (supply and demand) without government intervention. This system is more flexible but can lead to volatility in exchange rates.</li>
+          <li><strong>Managed Float:</strong> A combination of the fixed and floating systems, where the currency is allowed to fluctuate within a certain range, with occasional government intervention to stabilize it.</li>
+        </ul>
+      </p>
+
+      <h2>Factors Influencing Exchange Rates</h2>
+      <p>
+        Several factors can affect exchange rates, including:
+        <ul>
+          <li><strong>Interest Rates:</strong> Higher interest rates in a country can attract foreign investment, increasing demand for the country's currency and raising its value.</li>
+          <li><strong>Inflation:</strong> Countries with lower inflation rates tend to see their currency value increase as their goods become relatively cheaper for foreign buyers.</li>
+          <li><strong>Government Debt:</strong> Countries with large amounts of government debt are often seen as riskier investments, leading to a weaker currency.</li>
+          <li><strong>Political Stability:</strong> Countries with stable governments and low risk of political turmoil tend to have stronger currencies as investors seek stability.</li>
+          <li><strong>Speculation:</strong> Currency traders and investors may influence exchange rates by buying and selling currencies based on expectations of future economic conditions.</li>
+        </ul>
+      </p>
+
+      <h2>The Impact of Exchange Rates on International Trade</h2>
+      <p>
+        Exchange rates have significant effects on the flow of goods and services between countries. A favorable exchange rate can boost a country's export sector by making its products cheaper for foreign consumers. On the other hand, an unfavorable exchange rate can hurt exports and increase the cost of imported goods.
+      </p>
+      <p>
+        For example, if a country’s currency weakens relative to others, it will become cheaper for foreign buyers to purchase that country’s exports. Conversely, imports will become more expensive for domestic consumers. This can lead to changes in trade balances, as countries adjust their import and export strategies in response to fluctuating exchange rates.
+      </p>
+
+      <h2>Impact of Exchange Rates on Business and Investment</h2>
+      <p>
+        Exchange rate fluctuations can also have a significant impact on international business and investment:
+        <ul>
+          <li><strong>Profitability:</strong> Companies engaged in international trade may see their profits rise or fall depending on exchange rate movements.</li>
+          <li><strong>Investment Decisions:</strong> Investors must consider exchange rate risks when investing in foreign assets, as fluctuations in currency values can affect returns.</li>
+          <li><strong>Supply Chains:</strong> Companies with global supply chains may face rising costs or supply disruptions due to unfavorable exchange rates.</li>
+        </ul>
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Exchange rates are a key determinant in the dynamics of international trade. They affect the cost of goods and services, influence the flow of investment, and play a crucial role in the overall health of a nation's economy. Understanding how exchange rates work and the factors that influence them can help businesses and governments navigate the complexities of the global market and make informed decisions.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>

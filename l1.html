@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Talks - Causes of Inflation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      display: flex;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+  margin-left: 240px;
+  padding: 40px;
+  width: calc(100% - 240px);
+  box-sizing: border-box;
+}
+
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px 30px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .content {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      font-size: 18px;
+      line-height: 1.7;
+      color: #333;
+    }
+
+    .content h2 {
+      color: #00796b;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .main {
+        margin-left: 0;
+        padding: 20px;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Eco Talks</h2>
+    <a href="home page.html">🏠 Home</a>
+    <a href="videos.html">🎥 Videos</a>
+    <a href="learn.html">📘 Learn</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="contact.html">📩 Contact Us</a>
+  </div>
+
+  <div class="main">
+    <div class="hero">
+      <h1>Causes of Inflation</h1>
+    </div>
+
+    <div class="content">
+      <p>Inflation refers to the sustained increase in the general price level of goods and services in an economy over time. It reduces purchasing power, meaning that consumers can buy less with the same amount of money. Understanding the root causes of inflation helps policymakers, economists, and everyday people better prepare for and respond to economic shifts.</p>
+
+      <h2>1. Demand-Pull Inflation</h2>
+      <p>This occurs when aggregate demand outpaces aggregate supply. In simpler terms, if more people want to buy goods and services than what’s available, prices naturally rise. This is common during periods of strong economic growth when consumer confidence is high and spending increases rapidly.</p>
+
+      <h2>2. Cost-Push Inflation</h2>
+      <p>Cost-push inflation arises when the costs of production increase, forcing producers to raise prices to maintain profit margins. This can be driven by rising wages, increased costs of raw materials (like oil or metals), or supply chain disruptions.</p>
+
+      <h2>3. Monetary Expansion</h2>
+      <p>If a central bank increases the money supply too quickly, it can lead to inflation. More money in circulation chasing the same amount of goods causes prices to rise. This theory is often summarized by the phrase: “too much money chasing too few goods.”</p>
+
+      <h2>4. Imported Inflation</h2>
+      <p>Inflation can be “imported” through higher prices of goods coming from abroad, especially in countries that rely heavily on imports. For example, if global oil prices spike, transportation and production costs may rise domestically, leading to inflation.</p>
+
+      <h2>5. Currency Depreciation</h2>
+      <p>When a country’s currency weakens against others, imports become more expensive. Businesses may pass these increased costs onto consumers, leading to inflation. Currency depreciation can occur due to trade imbalances, interest rate changes, or loss of investor confidence.</p>
+
+      <h2>6. Inflation Expectations</h2>
+      <p>Sometimes, just the expectation of future inflation can cause inflation. If businesses and workers expect prices to rise, they may increase prices or demand higher wages in advance — which itself contributes to inflation. This creates a self-fulfilling cycle.</p>
+
+      <p>While inflation is a normal part of a growing economy, excessive inflation can harm savings, reduce investment, and hurt low-income households the most. That’s why governments and central banks actively monitor inflation and use tools like interest rates and spending policies to manage it.</p>
+    </div>
+  </div>
+
+</body>
+</html>

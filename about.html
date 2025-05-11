@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About – Eco Talks</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      background: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(180deg, #0d0d0d 0%, #004d40 100%);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 40px;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+      color: #00e676;
+    }
+
+    .sidebar a {
+      width: 80%;
+      display: block;
+      padding: 14px 20px;
+      margin: 8px 0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, padding-left 0.3s;
+      position: relative;
+    }
+
+    .sidebar a::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 4px;
+      background-color: #00e676;
+      left: 0;
+      top: 0;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-left: 26px;
+    }
+
+    .sidebar a:hover::before {
+      opacity: 1;
+    }
+
+    .main {
+      margin-left: 240px;
+      padding: 40px;
+      flex: 1;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e0f7fa;
+      border-radius: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #00796b;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .about {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .about h2 {
+      color: #00796b;
+      font-size: 28px;
+      margin-bottom: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .about h2:hover {
+      color: #004d40;
+    }
+
+    .about p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 1024px) {
+      .about {
+        padding: 30px;
+        max-width: 90%;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+      }
+
+      .sidebar a {
+        width: auto;
+        margin: 0 8px;
+        padding: 10px 14px;
+      }
+
+      .main {
+        margin-left: 0;
+        padding: 20px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Eco Talks</h2>
+  <a href="home page.html">🏠 Home</a>
+  <a href="videos.html">🎥 Videos</a>
+  <a href="learn.html">📘 Learn</a>
+  <a href="about.html">ℹ️ About</a>
+  <a href="contact.html">📩 Contact Us</a>
+</div>
+
+<div class="main">
+  <div class="hero">
+    <h1>So... What’s Eco Talks?</h1>
+    <p>We don’t just talk about the economy — we make it make sense.</p>
+  </div>
+
+  <div class="about">
+    <h2>Why We Made This</h2>
+    <p>
+      Let’s be real — macroeconomics can feel like it’s written in another language. 
+      Interest rates, inflation, central banks, GDP, deficits... it’s like, who actually 
+      understands this stuff? That’s where we come in.
+    </p>
+    <p>
+      Eco Talks breaks down the biggest economic forces shaping your life — without putting 
+      you to sleep. Through short, sharp, and sometimes funny video episodes, we unpack 
+      the “big picture” of the economy in a way that actually clicks.
+    </p>
+    <p>
+      Whether you're a student tryna pass, a curious thinker, or just wondering why your 
+      grocery bill doubled — this is for you.
+    </p>
+
+    <h2>What We Cover</h2>
+    <p>
+      We focus on macroeconomics — that's the large-scale stuff: inflation, monetary and 
+      fiscal policy, banking systems, global trade, debt, and how governments steer the 
+      economy. It’s the world behind the headlines — and behind your paycheck.
+    </p>
+
+    <h2>Our Vibe</h2>
+    <p>
+      No stiff lectures. No over-complicated terms. Just real talk, visuals, and a crew 
+      that knows how to keep things interesting. We're not here to sound smart — we're here 
+      to make *you* smarter.
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
